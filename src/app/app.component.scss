@@ -1,0 +1,61 @@
+.main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10vh;
+    
+        .content{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            width: 30rem;
+            height: 46rem;
+            background-color: hsl(0, 0%, 12%);
+            border-radius: 1rem;
+        .render-section{
+                p{
+                        margin-top: 5px;
+                        margin-bottom: 5px;
+                  }
+                img{
+                        margin-top: 3rem;
+                        margin-bottom: 1.5rem;
+                        height: 7rem;
+                        border-radius: 50%;
+                  }
+
+                .user-name{
+                        font-size: 26px;
+                        font-weight: 700;
+                 }
+                .green-text{
+                        margin-top: .5rem;
+                        margin-bottom: 1.7rem;
+                        color: hsl(75, 94%, 57%);
+                        font-weight: 600;
+                }
+                .just-text{
+                        margin-top: 0;
+                }
+                .button-links{
+                        display: flex;
+                        flex-direction: column;
+                       
+                        button{
+                                font-weight: 600;
+                                font-family: "Inter", sans-serif;
+                                margin-top: 20px;
+                                width: 26rem;
+                                height: 5.5vh;
+                                border-radius: .5rem;                                
+                                background-color: hsl(0, 0%, 20%);
+                        }
+                        button:hover{
+                                background-color: hsl(75, 94%, 57%);
+                                color: hsl(0, 0%, 8%);
+                        }
+                }
+    }
+}
+}
